@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <title>KatyNicole</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KatyNicole</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"
+
 </head>
+
 <body>
-   Hello world. 
+    <header>
+        <span class="nametag">
+        KatyNicole
+        </span>
+        <nav>
+                <!--Unordered list-->
+      <ul>
+        <li>
+            <!-- Anchor element -->
+          <a href="#aboutmee">About</a>
+        </li>
+        <li>
+          <a href="#work">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
+     </nav>
+     </header>
+     <section id="aboutmee" class="aboutme">
+        <div class="about">
+            <h1>Web developer</h1>
+            <p>Hello! My name is Katy, or KatyNicole. I am a self taught/bootcamp student, aspiring to become
+            fully freelance. I enjoy frontend and backend development.
+             You can view some of my past work here, or feel free to contact me. 
+            </p>
+        </div>
+    </section>
+
+    <section id="work" class="pastwork">
+        Check back soon.<br>
+        <img src="images/comingsoon.jpg">
+        
+    </section>
+
+    <section id="contact" class="contactme">
+        <div class="contact-form">
+            <h3>Contact Me Today</h3>
+            <form>
+              <label for="name">Full name:</label>
+              <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+              <label for="email">Email address:</label>
+              <input type="text" placeholder="Email Address" name="email" id="email" class="form-input" />
+              <label for="phone">Telephone number:</label>
+              <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+              <label for="query">Enter any information you'd like to share here. </label>
+              <input type="text" placeholder="Query" name="query" id="qmore" class="form-input" />
+              </p>
+              <button type="submit">
+                Contact Me
+              </button>
+            </form>
+
+    </section>
+
+
+
+     <footer>
+         Created by KatyNicole
+     </footer>
+</header>
 </body>
 </html>
